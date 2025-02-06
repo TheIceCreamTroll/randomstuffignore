@@ -1,4 +1,4 @@
-package org.tournafence
+package org.tf.app
 
 class Greeting {
     private val platform = getPlatform()

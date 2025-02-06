@@ -1,4 +1,4 @@
-package org.tournafence
+package org.tf.app
 
 import android.os.Build
 

@@ -55,11 +55,11 @@ kotlin {
 }
 
 android {
-    namespace = "org.tournafence"
+    namespace = "org.tf.app"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "org.tournafence"
+        applicationId = "org.tf.app"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -87,11 +87,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "org.tournafence.MainKt"
+        mainClass = "org.tf.app.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "org.tournafence"
+            packageName = "org.tf.app"
             packageVersion = "1.0.0"
         }
     }

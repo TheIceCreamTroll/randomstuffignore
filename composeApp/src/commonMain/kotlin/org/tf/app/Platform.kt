@@ -1,4 +1,4 @@
-package org.tournafence
+package org.tf.app
 
 interface Platform {
     val name: String

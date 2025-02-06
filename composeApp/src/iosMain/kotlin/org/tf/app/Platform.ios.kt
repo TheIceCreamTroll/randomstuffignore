@@ -1,4 +1,4 @@
-package org.tournafence
+package org.tf.app
 
 import platform.UIKit.UIDevice
 
